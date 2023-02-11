@@ -15,31 +15,40 @@
 	</head>
 
 	<body>
+		<!-- Boton Volver Arriba -->
+
+		<div class="btn-volver-arriba" id="btnVolverArriba">
+			<a href="#" class="volver-arriba">
+				<i class="fa-solid fa-arrow-up"></i>
+			</a>
+		</div>
+
+		<!-- Encabezado -->
 		<header>
 			<!-- version movil -->
 			<div class="menu-mobile">
 				<div class="barra">
-					<a href="#"><img src="img/logotipo.png" alt="Logo - Estudio Juridico"></a>
+					<a href="#" class="logo"><img src="img/logotipo.png" alt="Logo - Estudio Juridico"></a>
 					<a href="#" id="btnMenu"><i class="fa-solid fa-bars"></i></a>
 				</div>
 				<nav class="menu-principal">
-					<a href="#" class="scroll-arriba">INICIO</a>
-					<a href="#" class="scroll-suave">POYECTOS</a>
-					<a href="#" class="scroll-acercaDe">ACERCA DE</a>
-					<a href="#" class="scroll-equipo">NUESTRO EQUIPO</a>
-					<a href="#" class="scroll-suave">CONTACTO</a>
+					<a href="#" class="volver-arriba">INICIO</a>
+					<a href="#proyectos" class="scroll-suave">POYECTOS</a>
+					<a href="#acercaDe"  class="scroll-acercaDe">ACERCA DE</a>
+					<a href="#equipo"    class="scroll-equipo">NUESTRO EQUIPO</a>
+					<a href="#contacto" class="scroll-suave">CONTACTO</a>
 				</nav>
 			</div>
 
 			<!-- version escritorio -->
 			<div class="menu-bar-pc">
-				<a href="#"> <img src="img/logotipo.png" alt="Logo - Estudio Juridico"> </a>	
+				<a href="#" class="logo"><img src="img/logotipo.png" alt="Logo - Estudio Juridico"></a>	
 				<nav class="menu-principal">
-					<a href="#" class="scroll-arriba">INICIO</a>
-					<a href="#" class="scroll-suave">POYECTOS</a>
-					<a href="#" class="scroll-acercaDe">ACERCA DE</a>
-					<a href="#" class="scroll-equipo">NUESTRO EQUIPO</a>
-					<a href="#" class="scroll-suave">CONTACTO</a>
+					<a href="#" class="volver-arriba">INICIO</a>
+					<a href="#proyectos" class="scroll-suave">POYECTOS</a>
+					<a href="#acercaDe"  class="scroll-acercaDe">ACERCA DE</a>
+					<a href="#equipo"    class="scroll-equipo">NUESTRO EQUIPO</a>
+					<a href="#contacto"  class="scroll-suave">CONTACTO</a>
 				</nav>
 				<div class="top-redes">
 					<a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -50,13 +59,13 @@
 		</header>
 
 		<div class="fixed-header" id="fixedheader">
-			<a href="#"> <img src="img/logotipo.png" alt="Logo - Estudio Juridico"> </a>	
+			<a href="#" class="logo"> <img src="img/logotipo.png" alt="Logo - Estudio Juridico"> </a>	
 			<nav class="menu-principal">
-				<a href="#" class="scroll-arriba">INICIO</a>
-				<a href="#" class="scroll-suave">POYECTOS</a>
-				<a href="#" class="scroll-acercaDe">ACERCA DE</a>
-				<a href="#" class="scroll-equipo">NUESTRO EQUIPO</a>
-				<a href="#" class="scroll-suave">CONTACTO</a>
+				<a href="#" class="volver-arriba">INICIO</a>
+				<a href="#proyectos" class="scroll-suave">POYECTOS</a>
+				<a href="#acercaDe"  class="scroll-acercaDe">ACERCA DE</a>
+				<a href="#equipo"    class="scroll-equipo">NUESTRO EQUIPO</a>
+				<a href="#contacto"  class="scroll-suave">CONTACTO</a>
 			</nav>
 			<div class="top-redes">
 				<a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -73,7 +82,7 @@
 				<div class="banner" id="banner"></div>
 				<div class="texto-banner">
 					<h2>Siempre Innovando</h2>
-					<h1>Desing Studio</h1>
+					<h1>HOLA MUNDOOOOO</h1>
 					<a href="#" class="scroll-suave">VER PROYECTOS</a>
 				</div>
 			</section>
@@ -96,6 +105,16 @@
 				</div>
 			</section>
 
+			<div class="modal" id="modal">
+				<img src="img/proyecto1.jpg">
+				<div class="btn-cerrar" id="btnCerrar">
+					<i class="fa-duotone fa-xmark"></i>
+				</div>
+			</div>
+
+
+
+
 			<!-- Acerca De -->
 			<section class="acerca-de" id="acercaDe">
 				<div class="contenedor">
@@ -117,10 +136,10 @@
 					<div class="slide"><img src="img/slide3.jpg" alt="Slide"></div>
 					<div class="slide"><img src="img/slide4.jpg" alt="Slide"></div>
 				</div>
-			</div>
 
-			<div class="btn-anterior" id="btnAnterior"><i class="fa-solid fa-arrow-left"></i></div>
-			<div class="btn-siguiente" id="btnSiguiente"><i class="fa-solid fa-arrow-right"></i></div>
+				<div class="btn-anterior" id="btnAnterior"><i class="fa-solid fa-arrow-left"></i></div>
+				<div class="btn-siguiente" id="btnSiguiente"><i class="fa-solid fa-arrow-right"></i></div>
+			</div>
 
 			<section class="nuestro-equipo" id="equipo">
 				<div class="contenedor">
@@ -135,7 +154,9 @@
 								<div class="texto">
 									<h3>Raul 1</h3>
 									<h4>asd123</h4>
-									<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, vero.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								</div>
 							</div>
 						</div>
@@ -146,7 +167,9 @@
 								<div class="texto">
 									<h3>Raul 2</h3>
 									<h4>asd123</h4>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Esse, ut.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								</div>
 							</div>
 						</div>
@@ -157,16 +180,18 @@
 								<div class="texto">
 									<h3>Raul 3</h3>
 									<h4>asd123</h4>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ut?</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>   
 
 			<!-- seccion info extra -->
-			<sectio class="info-extra">
+			<section class="info-extra">
 				<div class="contenedor">
 					<div class="info">
 						<div class="contenido-info">
@@ -186,7 +211,7 @@
 					</div>
 					<div class="foto"></div>
 				</div>
-			</sectio>
+			</section>
 
 			<!-- Contacto -->
 			<div class="contacto" id="contacto">
@@ -219,17 +244,10 @@
 			</div>
 		</footer>
 
-
-
-
-
-
-
-
-
-
-
-
+		<script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
+		<!-- <script type="text/javascript" src="js/banner.js"></script> -->
+		<script type="text/javascript" src="js/scrollSuave.js"></script>
+		<script type="text/javascript" src="js/stickyHeader.js"></script>
 		<script type="text/javascript" src="js/prefixfree.min.js"></script>
 	</body>
 	</html>
