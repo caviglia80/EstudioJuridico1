@@ -37,13 +37,4 @@ $(document).ready(function(){
 		var seccionOffsetTop = $($(this).attr('href')).offset().top - 68;
 		$('html,body').stop().animate({scrollTop: seccionOffsetTop}, 1000);
 	});
-
-
-
-
-
-
-
-
-
 });
