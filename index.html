@@ -207,41 +207,46 @@
 			<div class="contacto" id="contacto" data-parallax="scroll" data-image-src="img/bg-contacto.jpg">
 				<div class="contenedor">
 					<div class="contenedor-formulario">
-						<div class="formulario">
+						<div class="formulario" id="formulario">
 							<h2>Titulo</h2>
 							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima animi, recusandae, pariatur excepturi quod quae odit quos velit? Animi, iure?</p>
 							<form>
-								<div><input type="text" name="nombre" placeholder="Nombre"></div>
-								<div><input type="email" name="email" placeholder="Correo electronico"></div>
-								<div><textarea name="mensaje" placeholder="Cuentanos de tus proyectos"></textarea></div>
-								<div><input type="submit" name="enviar" value="Enviar"></div>
-							</form>
+								<div><input type="text" name="nombre" placeholder="Nombre" id="nombre">
+									<p class="error">Por favor escribe tu nombre.</p></div>
+									<div><input type="email" name="email" placeholder="Correo electronico" id="email">
+										<p class="error">Por favor escribe tu email.</p></div>
+										<div><textarea name="mensaje" placeholder="Cuentanos de tus proyectos" id="mensaje"></textarea>
+											<p class="error">Por favor escribe tu mensaje.</p></div>
+											<div><input type="submit" name="enviar" value="Enviar"></div>
+										</form>
+									</div>
+									<div class="foto"></div>
+								</div>
+							</div>
 						</div>
-						<div class="foto"></div>
-					</div>
-				</div>
-			</div>
-		</section>
+					</section>
 
-		<footer>
-			<div class="copy">
-				<p>Todos los derechos reservados.</p>
-			</div>
-			<div class="footer-redes">
-				<a href="#"><i class="fa-brands fa-facebook"></i></a>
-				<a href="#"><i class="fa-brands fa-twitter"></i></a>
-				<a href="#"><i class="fa-brands fa-instagram"></i></a>
-			</div>
-		</footer>
+					<footer>
+						<div class="copy">
+							<p>Todos los derechos reservados.</p>
+						</div>
+						<div class="footer-redes">
+							<a href="#"><i class="fa-brands fa-facebook"></i></a>
+							<a href="#"><i class="fa-brands fa-twitter"></i></a>
+							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						</div>
+					</footer>
 
-		<script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
-		<!-- <script type="text/javascript" src="js/banner.js"></script> -->
-		<script type="text/javascript" src="js/scrollSuave.js"></script>
-		<script type="text/javascript" src="js/stickyHeader.js"></script>
-		<script type="text/javascript" src="js/prefixfree.min.js"></script>
-		<script type="text/javascript" src="js/modal.js"></script>
-		<script type="text/javascript" src="js/slider.js"></script>
-		<!-- <script type="text/javascript" src="js/bgParallax.js"></script> -->
-		<script type="text/javascript" src="js/parallax.min.js"></script>
-	</body>
-	</html>
+					<script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
+					<!-- <script type="text/javascript" src="js/banner.js"></script> -->
+					<script type="text/javascript" src="js/scrollSuave.js"></script>
+					<script type="text/javascript" src="js/stickyHeader.js"></script>
+					<script type="text/javascript" src="js/prefixfree.min.js"></script>
+					<script type="text/javascript" src="js/modal.js"></script>
+					<script type="text/javascript" src="js/slider.js"></script>
+					<!-- <script type="text/javascript" src="js/bgParallax.js"></script> -->
+					<script type="text/javascript" src="js/validacion.js"></script>
+					<script type="text/javascript" src="js/menuMobile.js"></script>
+					<script type="text/javascript" src="js/parallax.min.js"></script>
+				</body>
+				</html>
