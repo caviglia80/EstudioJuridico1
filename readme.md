@@ -1,1 +1,1 @@
-Template de one-page solo con HTML, CSS y JS.
+Template de one-page solo con HTML, CSS, JS, y algo de JQuery.
